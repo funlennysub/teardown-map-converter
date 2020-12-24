@@ -1,0 +1,16 @@
+[package]
+name = "map-converter"
+version = "0.1.0"
+authors = ["funlennysub <kil.oil@yandex.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#build = "build.rs"
+
+#[build-dependencies]
+#embed-resource = "1.4.1"
+
+[dependencies]
+native-dialog = { version = "0.5.2", features = ["windows_dpi_awareness", "windows_visual_styles"] }
+regex = "1"
