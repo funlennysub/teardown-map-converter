@@ -3,7 +3,7 @@ use std::path::PathBuf;
 
 /* May change */
 pub static TXT_NAME: &'static str = "info";
-pub static VOX_FOLDER_NAME: &'static str = "vox";
+pub static VOX_FOLDER_NAME: &'static str = "main";
 
 /* Get teardown folder */
 #[cfg(target_os = "windows")]
